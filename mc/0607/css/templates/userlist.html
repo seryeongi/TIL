@@ -1,0 +1,7 @@
+{% load static %}
+<section>
+    <h1>User List Page</h1>
+    {% for u in userlist %}
+      <h3>{{u.id}} {{u.name}}</h3>
+    {% endfor %}
+</section>
